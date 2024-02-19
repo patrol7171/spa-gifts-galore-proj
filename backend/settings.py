@@ -21,7 +21,7 @@ if os.path.isfile(dotenv_file):
 
 # Quick-start development settings
 SECRET_KEY = os.environ.get('SECRET_KEY')
-DEBUG = False
+DEBUG = os.environ.get('DEBUG')
 
 
 # CORS_ALLOW_ALL_ORIGINS = True
