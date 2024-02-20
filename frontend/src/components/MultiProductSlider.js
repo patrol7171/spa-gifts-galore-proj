@@ -28,7 +28,7 @@ function MultiProductSlider () {
                         <Card.Img src={product.image}/>
                     </Link>
                     <Card.Body>
-                        <a href={`/product/${product._id}`}>
+                        <a href={`/#/product/${product._id}`}>
                             <Card.Title as="div">
                                 <strong>{product.name}</strong>
                             </Card.Title>
